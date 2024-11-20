@@ -15,52 +15,57 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Menu, MenuItem } from '@mui/material';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import HERO from "../images/6.jpg"
-import HERO2 from "../images/product-img-6.jpg"
-import HERO3 from "../images/product-img-7.jpg"
-import HERO4 from "../images/product-img-8.jpg"
-import HERO5 from "../images/product-img-9.jpg"
+import product from "../images/6.jpg"
+import product1 from "../images/product-img-6.jpg"
+import product2 from "../images/product-img-7.jpg"
+import product3 from "../images/product-img-8.jpg"
+import product4 from "../images/product-img-9.jpg"
 import {  Card , Rating } from '@mui/material'
 import AddIcon from '@mui/icons-material/Add';
 import { Link } from 'react-router-dom';
 
-const Productdata =[
+const Productdata = [
   {
-    Name : "Haldiram's Sev Bhujia",
-    Catogry:'Snack & Munchies',
-   
-    img:HERO,
-    Price:130
+    Name: "Haldiram's Sev Bhujia",
+    Category: "Snack & Munchies",
+    img: product,
+    Price: "$18",
+    OriginalPrice: "$24",
+    Rating: 4.5,
   },
   {
-    Name : "Haldiram's Sev Bhujia",
-    Catogry:'Snack & Munchies',
-  
-    img:HERO2,
-    Price:10
+    Name: "NutriChoice Digestive",
+    Category: "Bakery & Biscuits",
+    img: product1,
+    Price: "$24",
+    OriginalPrice: "",
+    Rating: 4.5,
   },
   {
-    Name : "Haldiram's Sev Bhujia",
-    Catogry:'Snack & Munchies',
- 
-    img:HERO3,
-    Price:90
+    Name: "Cadbury 5 Star Chocolate",
+    Category: "Bakery & Biscuits",
+    img: product2,
+    Price: "$32",
+    OriginalPrice: "$35",
+    Rating: 5,
   },
   {
-    Name : "Haldiram's Sev Bhujia",
-    Catogry:'Snack & Munchies',
- 
-    img:HERO4,
-    Price:120
+    Name: "Onion Flavour Potato",
+    Category: "Snack & Munchies",
+    img: product3,
+    Price: "$3",
+    OriginalPrice: "$5",
+    Rating: 3.5,
   },
   {
-    Name : "Haldiram's Sev Bhujia",
-    Catogry:'Snack & Munchies',
-   
-    img:HERO5,
-    Price:200
+    Name: "Salted Instant Popcorn",
+    Category: "Instant Food",
+    img: product4,
+    Price: "$13",
+    OriginalPrice: "$18",
+    Rating: 4.5,
   },
-]
+];
 
 
 interface Props {
