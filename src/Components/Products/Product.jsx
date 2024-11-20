@@ -1,9 +1,9 @@
 import React from 'react';
-import HERO from "../images/5.jpg";
-import HERO2 from "../images/product-img-1.jpg";
-import HERO3 from "../images/product-img-2.jpg";
-import HERO4 from "../images/product-img-3.jpg";
-import HERO5 from "../images/product-img-4.jpg";
+import product from "../images/6.jpg"
+import product1 from "../images/product-img-6.jpg"
+import product2 from "../images/product-img-7.jpg"
+import product3 from "../images/product-img-8.jpg"
+import product4 from "../images/product-img-9.jpg"
 import { Button, Card, Rating, Typography, Box } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 
@@ -11,7 +11,7 @@ const Productdata = [
   {
     Name: "Haldiram's Sev Bhujia",
     Category: "Snack & Munchies",
-    img: HERO,
+    img: product,
     Price: "$18",
     OriginalPrice: "$24",
     Rating: 4.5,
@@ -19,7 +19,7 @@ const Productdata = [
   {
     Name: "NutriChoice Digestive",
     Category: "Bakery & Biscuits",
-    img: HERO2,
+    img: product1,
     Price: "$24",
     OriginalPrice: "",
     Rating: 4.5,
@@ -27,7 +27,7 @@ const Productdata = [
   {
     Name: "Cadbury 5 Star Chocolate",
     Category: "Bakery & Biscuits",
-    img: HERO3,
+    img: product2,
     Price: "$32",
     OriginalPrice: "$35",
     Rating: 5,
@@ -35,7 +35,7 @@ const Productdata = [
   {
     Name: "Onion Flavour Potato",
     Category: "Snack & Munchies",
-    img: HERO4,
+    img: product3,
     Price: "$3",
     OriginalPrice: "$5",
     Rating: 3.5,
@@ -43,7 +43,7 @@ const Productdata = [
   {
     Name: "Salted Instant Popcorn",
     Category: "Instant Food",
-    img: HERO5,
+    img: product4,
     Price: "$13",
     OriginalPrice: "$18",
     Rating: 4.5,
